@@ -1,0 +1,84 @@
+
+body {
+  background: linear-gradient(rgba(124, 22, 22, 0.4),rgba(1, 206, 28, 0.445) ),url(https://cutewallpaper.org/21/to-do-list-wallpapers/Best-Of-to-Do-List-Wallpaper-Desktop-Wallpaper-Collections.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+  /* font-family: cursive, Geneva, Tahoma, sans-serif; */
+  font-family: "Sofia";
+  text-shadow: 1px 4px 6px rgb(255, 0, 85);
+  color: var(--secondary-color);
+}
+:root{
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+  
+}
+.dark-theme{
+  --primary-color: #000106;
+  --secondary-color: #fff;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(https://wallpapercave.com/wp/wp6610931.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  
+}
+#icon{
+  width: 30px;
+  cursor: pointer;
+  
+}
+
+.container {
+  text-align: center;
+  font-family: cursive;
+}
+.searchbar{
+    margin: 0px;
+    display: flex;
+    justify-content: center;   
+}
+#inputsth {
+  width: 200px;
+  height: 20px;
+  border: 3px solid rgb(20, 4, 245);
+  vertical-align: middle; 
+  border-radius: 8px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(173, 111, 111, 0.2)
+  ); 
+  font-size: 17px;
+  font-family: cursive;
+  color: var(--secondary-color);
+}
+input[type="text"]:focus {
+  outline : none;
+}
+ #add {
+  height: 27.5px;
+  border: 3px solid rgb(20, 4, 245);
+  color: red;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 3px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+  );
+} 
+#todos {
+  font-size: 17px; 
+}
+p:nth-child(even){
+  color: rgb(255, 0, 0);
+}
+p:nth-child(odd){
+  color: rgb(4, 0, 255);
+}
